@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ddfc31-eaca-4bc1-9956-af88c1eeb5a7" name="Changes" comment="" />
+    <list default="true" id="98ddfc31-eaca-4bc1-9956-af88c1eeb5a7" name="Changes" comment="Creating">
+      <change afterPath="$PROJECT_DIR$/EquationOfState.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneralizedCorrelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeatEffects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeeKeslerCorrelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_EquationOfState.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_GeneralizedCorrelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_LeeKeslerCorrelations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +36,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_EquationOfState.py.executor": "Run",
+    "Python.EquationOfState.executor": "Run",
+    "Python.GeneralizedCorrelations.executor": "Run",
+    "Python.HeatEffects.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,7 +68,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717012450844</updated>
+      <workItem from="1717012452805" duration="9366000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating">
+      <option name="closed" value="true" />
+      <created>1717012579893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717012579893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$GeneralizedCorrelations.coverage" NAME="GeneralizedCorrelations Coverage Results" MODIFIED="1717015125353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$HeatEffects.coverage" NAME="HeatEffects Coverage Results" MODIFIED="1717016129970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$EquationOfState.coverage" NAME="EquationOfState Coverage Results" MODIFIED="1717014731540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$test.coverage" NAME="test Coverage Results" MODIFIED="1717013531845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$.coverage" NAME=" Coverage Results" MODIFIED="1717028970460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
