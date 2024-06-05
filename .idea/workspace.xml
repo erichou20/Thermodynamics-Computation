@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ddfc31-eaca-4bc1-9956-af88c1eeb5a7" name="Changes" comment="Creating">
-      <change afterPath="$PROJECT_DIR$/EquationOfState.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneralizedCorrelations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeatEffects.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeKeslerCorrelations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_EquationOfState.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_GeneralizedCorrelations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_LeeKeslerCorrelations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LatentHeats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SensibleHeatEffects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StandardPropertiesOfRxns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_EquationOfState.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_GeneralizedCorrelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_LatentHeats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_LeeKeslerCorrelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_SensibleHeatEffects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_StandardPropertiesOfRxns.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationOfState.py" beforeDir="false" afterPath="$PROJECT_DIR$/EquationOfState.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneralizedCorrelations.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneralizedCorrelations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeatEffects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeeKeslerCorrelations.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeeKeslerCorrelations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_EquationOfState.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_GeneralizedCorrelations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_LeeKeslerCorrelations.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2h9hxwNDyPlYqqBBxdklf9e03GA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,9 +45,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests in test_EquationOfState.py.executor": "Run",
+    "Python tests.Python tests in test_GeneralizedCorrelations.py.executor": "Run",
+    "Python tests.Python tests in test_LatentHeats.py.executor": "Run",
+    "Python tests.Python tests in test_LeeKeslerCorrelations.py.executor": "Run",
+    "Python tests.Python tests in test_SensibleHeatEffects.py.executor": "Run",
+    "Python tests.Python tests in test_StandardPropertiesOfRxns.py.executor": "Run",
     "Python.EquationOfState.executor": "Run",
     "Python.GeneralizedCorrelations.executor": "Run",
     "Python.HeatEffects.executor": "Run",
+    "Python.LeeKeslerCorrelations.executor": "Run",
+    "Python.SensibleHeatEffects.executor": "Run",
+    "Python.StandardPropertiesOfRxns.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -52,6 +68,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717012450844</updated>
-      <workItem from="1717012452805" duration="9366000" />
+      <workItem from="1717012452805" duration="9646000" />
+      <workItem from="1717104049503" duration="36100000" />
     </task>
     <task id="LOCAL-00001" summary="Creating">
       <option name="closed" value="true" />
@@ -78,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717012579893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating">
+      <option name="closed" value="true" />
+      <created>1717103831116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717103831116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,8 +121,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Thermodynamics_Package$GeneralizedCorrelations.coverage" NAME="GeneralizedCorrelations Coverage Results" MODIFIED="1717015125353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Thermodynamics_Package$HeatEffects.coverage" NAME="HeatEffects Coverage Results" MODIFIED="1717016129970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Thermodynamics_Package$EquationOfState.coverage" NAME="EquationOfState Coverage Results" MODIFIED="1717014731540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$EquationOfState.coverage" NAME="EquationOfState Coverage Results" MODIFIED="1717450477787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Thermodynamics_Package$test.coverage" NAME="test Coverage Results" MODIFIED="1717013531845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Thermodynamics_Package$.coverage" NAME=" Coverage Results" MODIFIED="1717028970460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$SensibleHeatEffects.coverage" NAME="SensibleHeatEffects Coverage Results" MODIFIED="1717620284045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$StandardPropertiesOfRxns.coverage" NAME="StandardPropertiesOfRxns Coverage Results" MODIFIED="1717541280266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$.coverage" NAME=" Coverage Results" MODIFIED="1717541321121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Thermodynamics_Package$LeeKeslerCorrelations.coverage" NAME="LeeKeslerCorrelations Coverage Results" MODIFIED="1717620314352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
