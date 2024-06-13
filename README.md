@@ -14,7 +14,9 @@ calculate volumetric properties of pure fluids and
 heat effects. Additionally, functions covering:
 entropy computation, solution thermodynamics, 
 mixing, phase equilibrium, vapor liquid equilibrium,
-and reaction equilibrium will be added. 
+and reaction equilibrium will be added.<br>
+Note: this project has not yet been converted into
+a functioning package
 
 The content of this package is heavily based on the
 teachings of *Introduction to Chemical Engineering

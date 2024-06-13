@@ -22,7 +22,7 @@ class TestSensibleHeatEffects(unittest.TestCase):
         self.assertEqual(actual, (5 * 8.314 / 2), 'Incorrect Cv')
 
     def test_deltaH(self):
-        actual = SHE.deltaH(*params)
+        actual = SHE.deltaH_ig(*params)
         self.assertEqual(round(actual), 19778, "Incorrect enthalpy change")
 
         dH = quad(SHE.Cp_ig, T0, T, args=(A, B, C, D))[0]
@@ -30,27 +30,27 @@ class TestSensibleHeatEffects(unittest.TestCase):
 
     def test_deltaH_2(self):
         params[1] = T
-        self.assertEqual(SHE.deltaH(*params), 0, "Cannot handle T = T0")
+        self.assertEqual(SHE.deltaH_ig(*params), 0, "Cannot handle T = T0")
         params[1] = T0
 
     def test_T_Given_deltaH(self):
         params[0] = dH
-        actual = SHE.T_Given_deltaH(*params)
+        actual = SHE.T_Given_deltaH_ig(*params)
         self.assertEqual(round(actual, 2), T, 'Incorrect T given deltaH')
         params[0] = T
 
     def test_T_Given_deltaH_2(self):
-        actual = SHE.T_Given_deltaH(-dH, T, A, B, C, D)
+        actual = SHE.T_Given_deltaH_ig(-dH, T, A, B, C, D)
         self.assertEqual(round(actual, 2), T0, 'Incorrect T given -deltaH')
 
     def test_T_Given_deltaH_3(self):
-        actual = SHE.T_Given_deltaH(0, T0, A, B, C, D)
+        actual = SHE.T_Given_deltaH_ig(0, T0, A, B, C, D)
         self.assertEqual(actual, T0, 'Incorrect T given deltaH = 0')
 
     def test_T_Given_deltaH_4(self):
         # R in cal/mol K
         delH = 19777.52 * 1.98 / 8.314
-        actual = SHE.T_Given_deltaH(delH, T0, A, B, C, D, 1.98)
+        actual = SHE.T_Given_deltaH_ig(delH, T0, A, B, C, D, 1.98)
         self.assertEqual(round(actual, 2), T, 'Incorrect T given deltaH = 0')
 
     if __name__ == '__main__':

@@ -3,7 +3,7 @@ from scipy.optimize import root
 """
 This file gives functions to calculate heat changes assuming a non-constant heat capacity
 Author: Eric Hou
-Version: 1.0
+Version: 1.1
 """
 
 
@@ -35,7 +35,7 @@ def Cv_ig(Cp_ig, R=8.314):
     return Cp_ig - R
 
 
-def deltaH(T, T0, A, B, C, D, R=8.314):
+def deltaH_ig(T, T0, A, B, C, D, R=8.314):
     """
     This function calculates the change in enthalpy of a certain species from
     one temperature to another
@@ -52,7 +52,7 @@ def deltaH(T, T0, A, B, C, D, R=8.314):
                 (C / 3) * (T ** 3 - T0 ** 3) + D * ((T - T0) / (T * T0)))
 
 
-def T_Given_deltaH(dH, T0, A, B, C, D, R=8.314):
+def T_Given_deltaH_ig(dH, T0, A, B, C, D, R=8.314):
     """
     This function calculates the final temperature of a process given the change
     in enthalpy of a certain species.
@@ -67,7 +67,12 @@ def T_Given_deltaH(dH, T0, A, B, C, D, R=8.314):
     """
 
     def solver(T):
-        return deltaH(T, T0, A, B, C, D, R) - dH
-
-    sol = root(solver, [T0 + 100])
+        return deltaH_ig(T, T0, A, B, C, D, R) - dH
+    if dH > 0:
+        x0 = [T0+100]
+    elif dH < 0:
+        x0 = [T0-100]
+    else:
+        return T0
+    sol = root(solver, [x0])
     return sol.x[0]
