@@ -41,7 +41,6 @@ def res_Enthalpy(P, T, Pc, Tc, w, R=8.314):
     Tr = T / Tc
     temp1 = B_0(Tr) - (Tr*dB_0(Tr))
     temp2 = B_1(Tr) - (Tr*dB_1(Tr))
-    print(temp1, temp2)
 
     return R * Tc * Pr * (temp1 + (w*temp2))
 

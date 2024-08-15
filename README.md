@@ -10,9 +10,11 @@ potentially help with calculations in certain
 industries.
 
 Currently, functions exist for various methods to
-calculate volumetric properties of pure fluids and
-heat effects. Additionally, functions covering:
-entropy computation, solution thermodynamics, 
+calculate volumetric properties of pure fluids,
+heat effects, and entropy calculations. Additionally, 
+some methods for fugacity calculations can be found 
+in their namesake files. In the future, functions
+covering: solution thermodynamics, 
 mixing, phase equilibrium, vapor liquid equilibrium,
 and reaction equilibrium will be added.<br>
 Note: this project has not yet been converted into
