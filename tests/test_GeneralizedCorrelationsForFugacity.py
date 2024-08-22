@@ -1,4 +1,4 @@
-import GeneralizedCorrelationsForFugacity as GCF
+from src.Fugacity import GeneralizedCorrelationsForFugacity as GCF
 import numpy as np
 from scipy.stats import gmean
 import unittest

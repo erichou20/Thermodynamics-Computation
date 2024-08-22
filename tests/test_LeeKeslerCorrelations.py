@@ -1,5 +1,6 @@
 import unittest
-import LeeKeslerCorrelations as LKC
+from src.Misc import LeeKeslerCorrelations as LKC
+
 
 class TestLeeKeslerCorrelations(unittest.TestCase):
 

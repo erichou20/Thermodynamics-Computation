@@ -1,5 +1,5 @@
 import unittest
-import Entropy as e
+from src.Entropy import Entropy as e
 from scipy.integrate import quad
 import numpy as np
 

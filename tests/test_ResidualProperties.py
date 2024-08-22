@@ -1,6 +1,5 @@
 import unittest
 import ResidualProperties as RP
-import numpy as np
 
 # CO2 at 343.15 K and 150 bar
 params1 = [150, 343.15, 73.83, 304.03, 0.224]

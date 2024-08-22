@@ -1,6 +1,5 @@
 import unittest
 
-import LatentHeats
 import LatentHeats as LH
 
 #test 1: Water
