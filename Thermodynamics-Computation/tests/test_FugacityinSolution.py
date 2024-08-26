@@ -1,6 +1,10 @@
 import numpy as np
 import unittest
-from src.Fugacity import FugacityinSolution as FS
+
+import sys
+sys.path.insert(1, '/Thermodynamics-Computation/FugacityinSolution.py')
+import FugacityinSolution as FS
+
 
 # test 1: System of methane(1)/ethane(2)/propane(3)
 P = 35  # Bar

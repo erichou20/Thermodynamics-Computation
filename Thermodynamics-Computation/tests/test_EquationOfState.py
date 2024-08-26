@@ -1,5 +1,11 @@
 import unittest
+import sys
+sys.path.insert(1,'/Users/erich/git/Thermodynamics-Computation/Thermodynamics-Computation'
+                  '/EquationOfState.py')
+
 import EquationOfState as EOS
+
+
 # test 1: n-Butane at 9.4573 bar, 350K
 params1 = [9.4573, 350, 37.96, 425.1, 0.2]
 # test 2: Benzene at 10 bar, 373.15K
